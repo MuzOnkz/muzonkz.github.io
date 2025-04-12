@@ -1,34 +1,73 @@
 <!DOCTYPE html>
 <html lang="kk">
 <head>
-    <meta charset="UTF-8">
-    <title>Сәлем әлем!</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: sans-serif;
-            text-align: center;
-            background-color: #f2f2f2;
-        }
-        header {
-            background-color: #007bff;
-            color: white;
-            padding: 20px;
-        }
-        img {
-            max-width: 150px;
-            margin-bottom: 10px;
-        }
-        p {
-            margin-top: 40px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Сәлем әлем!</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #007bff;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    header img {
+      height: 50px;
+      display: block;
+      margin: 0 auto 10px;
+    }
+    nav {
+      background-color: #0056b3;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+    footer {
+      background-color: #222;
+      color: #aaa;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+    @media (max-width: 600px) {
+      header, main, footer {
+        padding: 10px;
+      }
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <img src="muzon-header.png" alt="muzOnkz">
-        <h1>Сәлем әлем!</h1>
-    </header>
+  <header>
+    <img src="muzon-header.png" alt="muzOnkz" />
+    <h1>Сәлем әлем!</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Басты бет</a>
+    <a href="about.html">Біз туралы</a>
+  </nav>
+
+  <main>
     <p>Бұл менің бірінші сайт парақшам</p>
+  </main>
+
+  <footer>
+    &copy; 2025 muzOnkz. Барлық құқықтар қорғалған.
+  </footer>
 </body>
 </html>
+
