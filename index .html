@@ -1,23 +1,102 @@
 <!DOCTYPE html>
 <html lang="kk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Жаңа Бет</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 50px;
-            background-color: #f4f4f4;
-        }
-        h1 {
-            color: #333;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MuzOnkz - Басты бет</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+
+    header {
+      background-color: #0057b7;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    nav {
+      background-color: #003f8a;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    main h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    main p {
+      font-size: 1.2em;
+      color: #666;
+    }
+
+    footer {
+      background-color: #222;
+      color: #aaa;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+      nav a {
+        margin: 10px 0;
+      }
+    }
+  </style>
 </head>
 <body>
-    <h1>Сәлем, GitHub Pages!</h1>
-    <p>Бұл менің алғашқы веб-бетім.</p>
+
+  <header>
+    <h1>MuzOnkz</h1>
+    <p>Қош келдіңіздер!</p>
+  </header>
+
+  <nav>
+    <a href="#">Басты бет</a>
+    <a href="#">Біз туралы</a>
+    <a href="#">Байланыс</a>
+  </nav>
+
+  <main>
+    <h1>Сәлем әлем!</h1>
+    <p>Бұл менің алғашқы жеке сайтым. Мұнда мен веб жасауды үйреніп жатырмын.</p>
+  </main>
+
+  <footer>
+    &copy; 2025 MuzOnkz. Барлық құқықтар қорғалған.
+  </footer>
+
 </body>
 </html>
